@@ -1,0 +1,210 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+
+/*------------------------ global -----------------------*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#boxes .box{
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+
+#teams .team{
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+footer .contuct{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    text-align: center;
+    width: 30%;
+}
+
+#teams .team{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: #e8491d;
+    background-color:#35424a;
+    
+}
+/*  ----------------------global end---------------------- */
+
+/*  ----------------------- header ----------------------- */
+header{
+    
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding h2{
+    float: left;
+    margin-top: -5px;
+    padding-right: 10px;
+
+}
+
+header #branding h1{
+    float:center;
+    margin-bottom: -30px;
+}
+
+header #branding{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-bottom: -100px;
+    
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+} 
+
+header  a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header .current a:hover{
+    color: #cccccc;
+    
+}
+
+/*   showcase   */
+#showcase{
+    min-height: 410px;
+    background: url(../index.html/img/polo9.png)no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 10px;
+}
+#about{
+    
+    min-height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: #e8491d 6px solid;
+}
+#newsletter{
+    background-color:#35424a;
+    border-top: tan 6px solid;
+    text-align: center;
+    border-bottom: tan 6px solid;
+    color: #e8491d;
+}
+
+#teams{
+    background-color:cornsilk;
+    border-bottom: tan 3px solid;
+}
+
+footer{
+    background-color: #35424a;
+    height: 200px;
+    color: white;
+    border-bottom: #e8491d 100px solid;
+}
+
+/* --------------------- GEABOX --------------------- */
+
+/* ----------------- GEABOX NAVBAR ------------------ */
+#geabox{
+    
+    background-color:#cccccc;
+    color: black;
+    padding-top: 30px;
+    min-height: 60px;
+    border-bottom: #35424a 5px solid;
+    border-top: #35424a 50px solid;
+    
+}
+
+#geabox a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#geabox li{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+    padding: 0 20px 0 20px;
+    background-color: #35424a;
+    color: #cccccc;
+}
+#geabox .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#geabox  a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#geabox .current a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#geabox h1{
+    text-align: center;
+    font-size: 55px;
+}
